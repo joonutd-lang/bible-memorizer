@@ -1,0 +1,116 @@
+[
+  {
+    "id": "12185ba7-ff0c-400f-b5db-ebc902d2ef18",
+    "user_id": "74cbf67c2ced50877f26b41bb4675f6c",
+    "assignment_id": "08994a21140e931c54ea36b71895719f",
+    "item_id": "local-item-yo-3-16-kae",
+    "mode": "random",
+    "typed_text": "sdlfskdjfsdfwef",
+    "official_text_used": "하나님이 세상을 이처럼 사랑하사 독생자를 주셨으니 이는 그를 믿는 자마다 멸망하지 않고 영생을 얻게 하려 하심이라",
+    "accuracy_score": 0,
+    "passed": false,
+    "submitted_at": "2026-03-19T03:07:03.695Z",
+    "duration_seconds": 6,
+    "mistake_logs": [
+      {
+        "word_or_phrase": "하나님이 세상을 이처럼 사랑하사 독생자를 주셨으니 이는 그를 믿는 자마다 멸망하지 않고 영생을 얻게 하려 하심이라",
+        "expected_text": "하나님이 세상을 이처럼 사랑하사 독생자를 주셨으니 이는 그를 믿는 자마다 멸망하지 않고 영생을 얻게 하려 하심이라",
+        "actual_text": "sdlfskdjfsdfwef",
+        "position": 0
+      }
+    ]
+  },
+  {
+    "id": "ef385d7b-52b5-4ec9-a7cf-0867d8bfdcad",
+    "user_id": "74cbf67c2ced50877f26b41bb4675f6c",
+    "assignment_id": "08994a21140e931c54ea36b71895719f",
+    "item_id": "local-item-yo-3-16-kae",
+    "mode": "random",
+    "typed_text": "하나님이 세상을 이처럼 살랑하나 독생자를 주셨으니 누구든지 예수믿으면 멸망하지 않고 영생을 얻으리라",
+    "official_text_used": "하나님이 세상을 이처럼 사랑하사 독생자를 주셨으니 이는 그를 믿는 자마다 멸망하지 않고 영생을 얻게 하려 하심이라",
+    "accuracy_score": 50,
+    "passed": false,
+    "submitted_at": "2026-03-19T03:07:33.818Z",
+    "duration_seconds": 36,
+    "mistake_logs": [
+      {
+        "word_or_phrase": "사랑하사",
+        "expected_text": "사랑하사",
+        "actual_text": "살랑하나",
+        "position": 3
+      },
+      {
+        "word_or_phrase": "이는 그를 믿는 자마다",
+        "expected_text": "이는 그를 믿는 자마다",
+        "actual_text": "누구든지 예수믿으면",
+        "position": 6
+      },
+      {
+        "word_or_phrase": "얻게 하려 하심이라",
+        "expected_text": "얻게 하려 하심이라",
+        "actual_text": "얻으리라",
+        "position": 13
+      }
+    ]
+  },
+  {
+    "id": "91826729-ff57-4cb0-9b5a-63a25dfa5ed1",
+    "user_id": "74cbf67c2ced50877f26b41bb4675f6c",
+    "assignment_id": "08994a21140e931c54ea36b71895719f",
+    "item_id": "local-item-yo-3-16-kae",
+    "mode": "random",
+    "typed_text": "하나님이 세상을 이처럼 사랑하사 독생자를 주셨으니 누구든지 예수믿으면 멸망하지 않고 영생을 얻으리라",
+    "official_text_used": "하나님이 세상을 이처럼 사랑하사 독생자를 주셨으니 이는 그를 믿는 자마다 멸망하지 않고 영생을 얻게 하려 하심이라",
+    "accuracy_score": 56.3,
+    "passed": false,
+    "submitted_at": "2026-03-19T03:07:42.788Z",
+    "duration_seconds": 45,
+    "mistake_logs": [
+      {
+        "word_or_phrase": "이는 그를 믿는 자마다",
+        "expected_text": "이는 그를 믿는 자마다",
+        "actual_text": "누구든지 예수믿으면",
+        "position": 6
+      },
+      {
+        "word_or_phrase": "얻게 하려 하심이라",
+        "expected_text": "얻게 하려 하심이라",
+        "actual_text": "얻으리라",
+        "position": 13
+      }
+    ]
+  },
+  {
+    "id": "5b589193-cd5b-49f1-877e-a64576fc23b6",
+    "user_id": "74cbf67c2ced50877f26b41bb4675f6c",
+    "assignment_id": "e307ed1a2439d19fba38725c615bfe6c",
+    "item_id": "local-item-custom-sentence",
+    "mode": "random",
+    "typed_text": "BBTS 4 Bible Verses \n\n1. Philippians 2:3 “Don’t be selfish; don’t try to impress others. Be humble, thinking of others as better than yourselves.”\n\n2. Philippians 4:5 “Let everyone see that you are considerate in all you do. Remember, the Lord is coming soon.”\n‭‭\n3. Proverbs 1:22 “How long, you simpletons, will you insist on being simpleminded? How long will you mockers relish your mocking? How long will you fools hate knowledge?”\n\n4. Proverbs 14:15 “Only simpletons believe everything they’re told! The prudent carefully consider their steps.”\n\n5. Proverbs 15:18 “A hot-tempered person starts fights; a cool-tempered person stops them.”\n\n6. Proverbs 21:5 “Good planning and hard work lead to prosperity, but hasty shortcuts lead to poverty.”\n\n7. Proverbs 25:8 “don’t be in a hurry to go to court. For what will you do in the end if your neighbor deals you a shameful defeat?”\n‭\n8. Proverbs 27:1 “Don’t brag about tomorrow, since you don’t know what the day will bring.”\n\n9. Matthew 7:12 “Do to others whatever you would like them to do to you. This is the essence of all that is taught in the law and the prophets.”\n\n10. Matthew 10:16 “Look, I am sending you out as sheep among wolves. So be as shrewd as snakes and harmless as doves.”\n‭‭\n11. Ephesians 4:15 “Instead, we will speak the truth in love, growing in every way more and more like Christ, who is the head of his body, the church.”\n‭‭\n12. James 1:9-10 “Believers who are poor have something to boast about, for God has honored them. And those who are rich should boast that God has humbled them. They will fade away like a little flower in the field.”\n\n13. James 4:2-3 “You want what you don’t have, so you scheme and kill to get it. You are jealous of what others have, but you can’t get it, so you fight and wage war to take it away from them. Yet you don’t have what you want because you don’t ask God for it. And even when you ask, you don’t get it because your motives are all wrong—you want only what will give you pleasure.”\n\n14. 2 Corinthians 5:20 “So we are Christ’s ambassadors; God is making his appeal through us. We speak for Christ when we plead, “Come back to God!””\n\n15. John 4:10 “Jesus replied, “If you only knew the gift God has for you and who you are speaking to, you would ask me, and I would give you living water.””\n\n16. John 4:28-30 “The woman left her water jar beside the well and ran back to the village, telling everyone, “Come and see a man who told me everything I ever did! Could he possibly be the Messiah?” So the people came streaming from the village to see him.”\n‭‭\n17. John 4:39 “Many Samaritans from the village believed in Jesus because the woman had said, “He told me everything I ever did!””\n\n18. 1 John 1:7 “But if we are living in the light, as God is in the light, then we have fellowship with each other, and the blood of Jesus, his Son, cleanses us from all sin.”\n\n19. Colossians 3:23 “Work willingly at whatever you do, as though you were working for the Lord rather than for people.”\n\n20. Job 42:10 “Work willingly at whatever you do, as though you were working for the Lord rather than for people.”\n\n21. 1 Timothy 6:17-18 “Teach those who are rich in this world not to be proud and not to trust in their money, which is so unreliable. Their trust should be in God, who richly gives us all we need for our enjoyment. Tell them to use their money to do good. They should be rich in good works and generous to those in need, always being ready to share with others.”\n\n22. Galatians 5:13 “For you have been called to live in freedom, my brothers and sisters. But don’t use your freedom to satisfy your sinful nature. Instead, use your freedom to serve one another in love.”\n\n23. 1 Peter 3:15 “Instead, you must worship Christ as Lord of your life. And if someone asks about your hope as a believer, always be ready to explain it.”\n\n24. 1 Peter 4:10 “God has given each of you a gift from his great variety of spiritual gifts. Use them well to serve one another.”\n\n25. Proverbs 26:17 “Interfering in someone else’s argument is as foolish as yanking a dog’s ears.”",
+    "official_text_used": "Be strong and courageous.",
+    "accuracy_score": 50,
+    "passed": false,
+    "submitted_at": "2026-03-19T03:11:47.078Z",
+    "duration_seconds": 2,
+    "mistake_logs": [
+      {
+        "word_or_phrase": "bbts 4 bible verses 1 philippians 2 3 don t be selfish don t try to impress others be humble thinking of others as better than yourselves 2 philippians 4 5 let everyone see that you are considerate in all you do remember the lord is coming soon ‭‭ 3 proverbs 1 22 how long you simpletons will you insist on being simpleminded how long will you mockers relish your mocking how long will you fools hate knowledge 4 proverbs 14 15 only simpletons believe everything they re told the prudent carefully consider their steps 5 proverbs 15 18 a hot tempered person starts fights a cool tempered person stops them 6 proverbs 21 5 good planning and hard work lead to prosperity but hasty shortcuts lead to poverty 7 proverbs 25 8 don t be in a hurry to go to court for what will you do in the end if your neighbor deals you a shameful defeat ‭ 8 proverbs 27 1 don t brag about tomorrow since you don t know what the day will bring 9 matthew 7 12 do to others whatever you would like them to do to you this is the essence of all that is taught in the law and the prophets 10 matthew 10 16 look i am sending you out as sheep among wolves so be as shrewd as snakes and harmless as doves ‭‭ 11 ephesians 4 15 instead we will speak the truth in love growing in every way more and more like christ who is the head of his body the church ‭‭ 12 james 1 9 10 believers who are poor have something to boast about for god has honored them and those who are rich should boast that god has humbled them they will fade away like a little flower in the field 13 james 4 2 3 you want what you don t have so you scheme and kill to get it you are jealous of what others have but you can t get it so you fight and wage war to take it away from them yet you don t have what you want because you don t ask god for it and even when you ask you don t get it because your motives are all wrong you want only what will give you pleasure 14 2 corinthians 5 20 so we are christ s ambassadors god is making his appeal through us we speak for christ when we plead come back to god 15 john 4 10 jesus replied if you only knew the gift god has for you and who you are speaking to you would ask me and i would give you living water 16 john 4 28 30 the woman left her water jar beside the well and ran back to the village telling everyone come and see a man who told me everything i ever did could he possibly be the messiah so the people came streaming from the village to see him ‭‭ 17 john 4 39 many samaritans from the village believed in jesus because the woman had said he told me everything i ever did 18 1 john 1 7 but if we are living in the light as god is in the light then we have fellowship with each other and the blood of jesus his son cleanses us from all sin 19 colossians 3 23 work willingly at whatever you do as though you were working for the lord rather than for people 20 job 42 10 work willingly at whatever you do as though you were working for the lord rather than for people 21 1 timothy 6 17 18 teach those who are rich in this world not to be proud and not to trust in their money which is so unreliable their trust should be in god who richly gives us all we need for our enjoyment tell them to use their money to do good they should",
+        "expected_text": "",
+        "actual_text": "bbts 4 bible verses 1 philippians 2 3 don t be selfish don t try to impress others be humble thinking of others as better than yourselves 2 philippians 4 5 let everyone see that you are considerate in all you do remember the lord is coming soon ‭‭ 3 proverbs 1 22 how long you simpletons will you insist on being simpleminded how long will you mockers relish your mocking how long will you fools hate knowledge 4 proverbs 14 15 only simpletons believe everything they re told the prudent carefully consider their steps 5 proverbs 15 18 a hot tempered person starts fights a cool tempered person stops them 6 proverbs 21 5 good planning and hard work lead to prosperity but hasty shortcuts lead to poverty 7 proverbs 25 8 don t be in a hurry to go to court for what will you do in the end if your neighbor deals you a shameful defeat ‭ 8 proverbs 27 1 don t brag about tomorrow since you don t know what the day will bring 9 matthew 7 12 do to others whatever you would like them to do to you this is the essence of all that is taught in the law and the prophets 10 matthew 10 16 look i am sending you out as sheep among wolves so be as shrewd as snakes and harmless as doves ‭‭ 11 ephesians 4 15 instead we will speak the truth in love growing in every way more and more like christ who is the head of his body the church ‭‭ 12 james 1 9 10 believers who are poor have something to boast about for god has honored them and those who are rich should boast that god has humbled them they will fade away like a little flower in the field 13 james 4 2 3 you want what you don t have so you scheme and kill to get it you are jealous of what others have but you can t get it so you fight and wage war to take it away from them yet you don t have what you want because you don t ask god for it and even when you ask you don t get it because your motives are all wrong you want only what will give you pleasure 14 2 corinthians 5 20 so we are christ s ambassadors god is making his appeal through us we speak for christ when we plead come back to god 15 john 4 10 jesus replied if you only knew the gift god has for you and who you are speaking to you would ask me and i would give you living water 16 john 4 28 30 the woman left her water jar beside the well and ran back to the village telling everyone come and see a man who told me everything i ever did could he possibly be the messiah so the people came streaming from the village to see him ‭‭ 17 john 4 39 many samaritans from the village believed in jesus because the woman had said he told me everything i ever did 18 1 john 1 7 but if we are living in the light as god is in the light then we have fellowship with each other and the blood of jesus his son cleanses us from all sin 19 colossians 3 23 work willingly at whatever you do as though you were working for the lord rather than for people 20 job 42 10 work willingly at whatever you do as though you were working for the lord rather than for people 21 1 timothy 6 17 18 teach those who are rich in this world not to be proud and not to trust in their money which is so unreliable their trust should be in god who richly gives us all we need for our enjoyment tell them to use their money to do good they should",
+        "position": 0
+      },
+      {
+        "word_or_phrase": "strong",
+        "expected_text": "strong",
+        "actual_text": "rich in good works and generous to those in need always being ready to share with others 22 galatians 5 13 for you have been called to live in freedom my brothers and sisters but don t use your freedom to satisfy your sinful nature instead use your freedom to serve one another in love 23 1 peter 3 15 instead you must worship christ as lord of your life",
+        "position": 670
+      },
+      {
+        "word_or_phrase": "courageous",
+        "expected_text": "courageous",
+        "actual_text": "if someone asks about your hope as a believer always be ready to explain it 24 1 peter 4 10 god has given each of you a gift from his great variety of spiritual gifts use them well to serve one another 25 proverbs 26 17 interfering in someone else s argument is as foolish as yanking a dog s ears",
+        "position": 741
+      }
+    ]
+  }
+]
