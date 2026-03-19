@@ -55,11 +55,22 @@ async function readJson<T>(filePath: string, fallback: T): Promise<T> {
 }
 
 async function writeJson(filePath: string, data: unknown) {
-  await ensureBaseDir();
-  // Windows can fail to rename in some dev environments (file locks / EPERM).
-  // For local mode persistence we can safely overwrite the file.
-  const json = JSON.stringify(data, null, 2);
-  await fs.writeFile(filePath, json, "utf-8");
+  try {
+    await ensureBaseDir();
+    // Windows can fail to rename in some dev environments (file locks / EPERM).
+    // For local mode persistence we can safely overwrite the file.
+    const json = JSON.stringify(data, null, 2);
+    await fs.writeFile(filePath, json, "utf-8");
+  } catch (error) {
+    // Vercel serverless filesystem can be read-only.
+    // In that case, keep the app running without local persistence.
+    const code = (error as NodeJS.ErrnoException | undefined)?.code;
+    const readonlyCodes = new Set(["EROFS", "EPERM", "EACCES"]);
+    if (code && readonlyCodes.has(code)) {
+      return;
+    }
+    throw error;
+  }
 }
 
 function todayISO() {
