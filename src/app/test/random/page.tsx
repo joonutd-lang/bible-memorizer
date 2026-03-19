@@ -53,33 +53,39 @@ export default async function RandomTestPage() {
     return hit ? 1.35 : 1;
   };
 
-  const assignments: any[] = supabaseConfigured
-    ? (
-      await createSupabaseServerClient()
-        .from("memorization_assignments")
-        .select(
-          "id,due_date,is_active,assigned_version_override," +
-            "memorization_items(reference,version,title,fixed_text,raw_text)",
-        )
-        .eq("user_id", profile.id)
-        .eq("is_active", true)
-    ).data ?? []
-    : await listLocalActiveAssignments({userId: profile.id});
+  let assignments: any[] = [];
+  if (supabaseConfigured) {
+    const supabase = await createSupabaseServerClient();
+    const {data} = await supabase
+      .from("memorization_assignments")
+      .select(
+        "id,due_date,is_active,assigned_version_override," +
+          "memorization_items(reference,version,title,fixed_text,raw_text)",
+      )
+      .eq("user_id", profile.id)
+      .eq("is_active", true);
+    assignments = (data ?? []) as any[];
+  } else {
+    assignments = await listLocalActiveAssignments({userId: profile.id});
+  }
 
   if (!assignments || assignments.length === 0) return <div />;
 
-  const submissions: any[] = supabaseConfigured
-    ? (
-      await createSupabaseServerClient()
-        .from("test_submissions")
-        .select("assignment_id,accuracy_score,passed,submitted_at")
-        .eq("user_id", profile.id)
-        .order("submitted_at", {ascending: false})
-        .limit(300)
-    ).data ?? []
-    : isKvConfigured
+  let submissions: any[] = [];
+  if (supabaseConfigured) {
+    const supabase = await createSupabaseServerClient();
+    const {data} = await supabase
+      .from("test_submissions")
+      .select("assignment_id,accuracy_score,passed,submitted_at")
+      .eq("user_id", profile.id)
+      .order("submitted_at", {ascending: false})
+      .limit(300);
+    submissions = (data ?? []) as any[];
+  } else {
+    submissions = isKvConfigured
       ? await listKvSubmissionsForUser({userId: profile.id, limit: 300})
       : await listLocalSubmissionsForUser({userId: profile.id, limit: 300});
+  }
 
   const byAssignment = new Map<
     string,

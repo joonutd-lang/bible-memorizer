@@ -20,21 +20,24 @@ export default async function HistoryPage() {
   const tHistory = await getTranslations("history");
   const tCommon = await getTranslations("common");
 
-  const submissions: any[] = supabaseConfigured
-    ? (
-      await createSupabaseServerClient()
-        .from("test_submissions")
-        .select(
-          "id,mode,accuracy_score,passed,submitted_at,typed_text,official_text_used,assignment_id," +
-            "memorization_items(reference,title,version)",
-        )
-        .eq("user_id", profile.id)
-        .order("submitted_at", {ascending: false})
-        .limit(50)
-    ).data ?? []
-    : isKvConfigured
+  let submissions: any[] = [];
+  if (supabaseConfigured) {
+    const supabase = await createSupabaseServerClient();
+    const {data} = await supabase
+      .from("test_submissions")
+      .select(
+        "id,mode,accuracy_score,passed,submitted_at,typed_text,official_text_used,assignment_id," +
+          "memorization_items(reference,title,version)",
+      )
+      .eq("user_id", profile.id)
+      .order("submitted_at", {ascending: false})
+      .limit(50);
+    submissions = (data ?? []) as any[];
+  } else {
+    submissions = isKvConfigured
       ? await listKvSubmissionsForUser({userId: profile.id, limit: 50})
       : await listLocalSubmissionsForUser({userId: profile.id, limit: 50});
+  }
 
   const modeLabel = (mode: string) => {
     if (mode === "typing") return tHistory("modeTyping");

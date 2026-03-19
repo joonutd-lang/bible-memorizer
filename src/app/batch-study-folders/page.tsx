@@ -262,12 +262,12 @@ export default function BatchStudyFoldersPage() {
     let cancelled = false;
 
     const run = async () => {
-      const fallback = {semesters: [], setsBySemester: {}};
+      const fallback: typeof index = {semesters: [], setsBySemester: {}};
 
-      let loaded = fallback;
+      let loaded: typeof index = fallback;
       if (kvEnabled) {
         const res = await kvCall("index_get");
-        loaded = (res?.index ?? fallback) as any;
+        loaded = (res?.index ?? fallback) as typeof index;
       } else {
         loaded = readJson(indexKey, fallback);
       }
