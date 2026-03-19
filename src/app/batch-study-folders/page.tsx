@@ -274,7 +274,8 @@ export default function BatchStudyFoldersPage() {
 
       if (cancelled) return;
       setIndex(loaded);
-      setSelectedSemesterId((prev) => prev ?? loaded.semesters?.[0]?.id ?? null);
+      const firstSemester = loaded.semesters.length > 0 ? loaded.semesters[0] : null;
+      setSelectedSemesterId((prev) => prev ?? (firstSemester ? firstSemester.id : null));
     };
 
     void run();
